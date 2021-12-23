@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,18 @@ namespace SeleniumLearning.Tests
 {
     internal class CustomerTests
     {
+        [Test]
+        public void AddCustomerTest()
+        {
+
+        }
+
+        [Test]
+        public void EditCustomerTest()
+        {
+
+        }
+
+
     }
 }
